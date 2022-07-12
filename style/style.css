@@ -31,6 +31,7 @@ header > h1 {
 header > p {
     font-family: var(--fonte1);
     
+    
 }
     header > p > a {
         color: white;
@@ -44,9 +45,13 @@ header > p {
 
     main > section > p {
         padding-left: 10px;
+        
         font-family: var(--fonte3);
         font-size: 4vw;
       line-height: 2em;
+      padding-bottom: 2em;  
+      
+      
     }
     body {
     background-color: grey;
@@ -56,6 +61,18 @@ section {
     padding-bottom: 10vh;
    
    padding-left: 30px;
+}
+section#img1 {
+    background-image: url(../imagens/background001.jpg) ;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section#img2 {
+    background-image: url(/imagens/background002.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section.imagem {
