@@ -69,7 +69,7 @@ section#img1 {
     background-attachment: fixed;
 }
 section#img2 {
-    background-image: url(/imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-attachment: fixed;
